@@ -3,8 +3,8 @@ This is a demonstration of DOM manipulation.
 --
 [![Try it right now!](https://user-images.githubusercontent.com/51089476/132998207-466ccddc-38ac-4e16-b61f-6a64bbf17f00.PNG)](https://drum-kit-project.glitch.me)
 --
-Below you will see the main steps in that funny project:
-- Adding Event Listeners to a Button
+Below you will find the main steps in this project:
+- Adding Event Listeners to a Button:
 ```
 var numOfDB = document.querySelectorAll(".drum").length;
 for (var i = 0; i<numOfDB; i++) {
