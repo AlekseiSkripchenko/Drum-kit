@@ -5,14 +5,14 @@ This is a demonstration of DOM manipulation.
 --
 Below you will find the main steps in this project:
 - Adding Event Listeners to a Button:
-```
+```javascript
 var numOfDB = document.querySelectorAll(".drum").length;
 for (var i = 0; i<numOfDB; i++) {
 	document.querySelectorAll(".drum")[i].addEventListener("click", clicker);
 }
 ```
 - Making sound for each button:
-```
+```javascript
 function makeSound(key){
 
 	switch (key) {
@@ -52,7 +52,7 @@ function makeSound(key){
 }
 ```
 - Adding "Keydown" event (when a key is pressed):
-```
+```javascript
 function clicker() {
 
 		var btnInnerHTML = this.innerHTML;
